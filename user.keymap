@@ -1,6 +1,3 @@
-;; Your file has been converted to the new flat format.
-;; Conversion does not preserve comments or indentation.
-;; File is backed up at C:\Users\Marko\AppData\Local\LightTable\User\user.keymap.bak
 [
  [:editor "alt-shift-w" :editor.watch.unwatch]
  [:editor "alt-w" :editor.watch.watch-selection]
