@@ -4,4 +4,9 @@
  [:editor "pmeta-m" (:editor.open-pair "(")]
  [:editor "pmeta-n" (:editor.open-pair "[")]
  [:editor "pmeta-b" (:editor.open-pair "{")]
+ ;; paredit
+ [:editor "ctrl-shift-right" [:paredit.grow.right]]
+ [:editor "ctrl-shift-left" [:paredit.shrink.right]]
+ [:editor "ctrl-right" [:paredit.shrink.left]]
+ [:editor "ctrl-left" [:paredit.grow.left]]
 ]
